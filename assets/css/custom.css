@@ -1,0 +1,120 @@
+/* Global styling for ALL <a> links */
+
+.page__content a:not(.btn),
+.page__content a:visited:not(.btn) {
+  color: #209bcc;           /* normal blue */
+  text-decoration: none;
+}
+
+/* Hover effect */
+.page__content a:hover:not(.btn) {
+  color: #003366;           /* darker blue on hover */
+  text-decoration: underline;
+}
+
+/* News section */
+.news-table table,
+.news-table td {
+  border: none !important;
+}
+
+.news-table tr,
+.news-table td {
+  font-size: 0.85rem !important;   /* match theme default */
+  line-height: 1.4;
+}
+
+/* Date column (light mode) */
+.news-date {
+  color: #555;
+}
+
+/* Dark mode override for date column */
+html[data-theme="dark"] .news-date {
+  color: #ccc !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Prevent theme from dimming News table in dark mode */
+html[data-theme="dark"] .news-table table,
+html[data-theme="dark"] .news-table td,
+html[data-theme="dark"] .news-table tr {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Layout for each publication card */
+.page__content .pub-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 60px !important;
+}
+
+/* Thumbnail box – same size for all cards */
+.page__content .pub-thumb-wrapper {
+  position: relative;
+  width: 260px;             /* control width here */
+  flex: 0 0 260px;          /* prevent flex from shrinking it */
+  aspect-ratio: 16 / 9;     /* or 4 / 3 if you prefer */
+  border-radius: 6px;
+  overflow: hidden;         /* hide overflow when cropping */
+}
+
+/* The image fills the box and keeps aspect ratio */
+.page__content .pub-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* crop to fill nicely */
+  display: block;
+}
+
+/* Existing badge (now positioned relative to the wrapper) */
+.page__content .pub-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #3366ff;
+  color: white;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+/* Existing title + buttons styles you already added */
+.page__content .pub-title {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.page__content .pub-buttons {
+  margin-top: 5px;
+}
+
+.page__content .pub-btn {
+  padding: 4px 8px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+html[data-theme="dark"] .pub-btn {
+  border-color: #aaa;
+}
+
+.page__content .pub-content {
+  font-size: 0.85rem;  /* match News size */
+  line-height: 1.4;
+}
+
+/* Fix spacing around paragraphs */
+.page__content .pub-content p {
+  margin: 2px 0 2px 0 !important;   /* eliminate large theme margins */
+  padding: 0;
+  line-height: inherit;
+}

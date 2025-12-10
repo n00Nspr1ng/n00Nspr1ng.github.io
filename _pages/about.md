@@ -1,56 +1,152 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+Hi! I am a Ph.D. student in Mechanical Engineering at University of California, Berkeley. I work in the [ICON Lab](https://iconlab.negarmehr.com/) under Prof. [Negar Mehr](https://negarmehr.com/). My research focuses on robot learning, especially on developing autonomous robots that can work alongside humans and other robots.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Prior to Berkeley, I earned my B.S. in Mechanical Engineering from Yonsei University. During my undergraduate studies, I worked as a research intern in [MLCS Lab](https://mlcs.yonsei.ac.kr/) under Prof. Jongeun Choi, where I worked on MPCs and RL for autonomous driving, as well as visuamotor policy learning for contact-rich manipulation.
 
-A data-driven personal website
+
+<div style="margin-top: 40px;"></div>
+
+Research
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<div style="margin-bottom: 20px;"></div>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<!-- My research lies at the intersection of robot learning, control, and foundation models. I study how <span style="color:#003366; font-weight:600;">LLMs and VLMs can guide reinforcement learning</span> to acquire complex, coordinated robot behaviors. This includes building curriculum-driven frameworks such as CRAFT for multi-robot collaboration and extending them toward humanoid whole-body control and multi-humanoid interaction. 
 
-Getting started
+In parallel, I explore scalable <span style="color:#003366; font-weight:600;">imitation learning</span> methods that can transfer single-robot expertise to multi-robot settings, where data collection is especially challenging. Ultimately, I aim to develop autonomous systems that can learn efficiently, coordinate intelligently, and operate safely alongside humans and other robots. -->
+
+My research lies at the intersection of robot learning, control, and foundation models. I study how **LLMs and VLMs can guide reinforcement learning** to acquire complex, coordinated robot behaviors. This includes building curriculum-driven frameworks such as CRAFT for multi-robot collaboration and extending them toward humanoid whole-body control and multi-humanoid interaction. 
+
+In parallel, I explore scalable **imitation learning** methods that can transfer single-robot expertise to multi-robot settings, where data collection is especially challenging. Ultimately, I aim to develop autonomous systems that can learn efficiently, coordinate intelligently, and operate alongside humans and other robots.
+
+<!-- My most recent research direction is integrating foundation models such as LLMs and VLMs with reinforcement learning to learn intricate robot behaviors. I have written CRAFT to learn multi-robot collaboration, and I am extending this work to humanoids, starting from learning a single humanoid whole-body controller, and making up to learing multiple humanoid 
+(and with other robots) interactions. This will help in developing robots that can work alongside humans and other robots.
+
+In the other hand, I am also interested in utilizing imitation learning. Imitation learning is a powerful tool to learn the exact "right" behavior, however, it always suffers from data collection (the quality, the size, etc). This gets worse for a multi-robot settings where collecting data when multiple robots are all active is very hard. I am interested in developing methods that can scale well with the number of robots, especially taking a single-robot policy and able to extend it to learning intelligent interaction behavior between multiple robots. -->
+
+<div style="margin-top: 40px;"></div>
+
+News
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<div style="margin-bottom: 20px;"></div>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<div class="news-table">
+<table style="width:100%; border-collapse:separate; border-spacing:0 6px;">
+  <tr>
+    <td class="news-date" style="width:130px; font-weight:bold; white-space:nowrap;">
+      Sep, 2025
+    </td>
+    <td>
+      I am excited to announce that my first first-authored paper <a href="https://arxiv.org/abs/2509.14380">CRAFT</a> is now available in Arxiv.
+    </td>
+  </tr>
 
-**Markdown generator**
+  <tr>
+    <td class="news-date" style="font-weight:bold; white-space:nowrap;">
+      Jul, 2025
+    </td>
+    <td>
+      I was selected as one of the best 10 research proposals in the Google-BAIR Commons Annual Workshop.
+    </td>
+  </tr>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+  <tr>
+    <td class="news-date" style="font-weight:bold; white-space:nowrap;">
+      Apr, 2024
+    </td>
+    <td>
+      I will start my Ph.D at UC Berkeley, beginning Fall 2024. 🥳
+    </td>
+  </tr>
+</table>
+</div>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<div style="margin-top: 40px;"></div>
+
+Publications
+======
+
+<div style="margin-bottom: 20px;"></div>
+
+<div class="pub-card">
+
+  <div class="pub-thumb-wrapper">
+    <img src="images/CRAFT.gif" alt="CRAFT Thumbnail" class="pub-thumb">
+    <div class="pub-badge">Preprint</div>
+  </div>
+
+  <div class="pub-content">
+    <a href="https://iconlab.negarmehr.com/CRAFT/" class="pub-title">
+      CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks
+    </a>
+    <p>
+      <strong>S. Choi*</strong>, K. Ryu*, J. Ock, and N. Mehr  
+      <em>(*Equal contribution)</em><br>
+      <em>Submitted to ICRA, 2026.</em>
+    </p>
+    <div class="pub-buttons">
+      <a href="https://arxiv.org/abs/2509.14380" class="pub-btn">Arxiv</a>
+      <a href="https://iconlab.negarmehr.com/CRAFT/" class="pub-btn">Website</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="pub-card">
+
+  <div class="pub-thumb-wrapper">
+    <img src="images/MIMIC-D.jpg" alt="MIMIC-D Thumbnail" class="pub-thumb">
+    <div class="pub-badge">Preprint</div>
+  </div>
+
+  <div class="pub-content">
+    <a href="https://iconlab.negarmehr.com/MIMIC-D/" class="pub-title">
+      MIMIC-D: Multi-modal Imitation for Multi-agent Coordination with Decentralized Diffusion Policies
+    </a>
+    <p>
+      D. Dong*, M. Bhatt*, <strong>S. Choi</strong>, and N. Mehr  
+      <em>(*Equal contribution)</em><br>
+      <em>Submitted to ICRA, 2026.</em>
+    </p>
+    <div class="pub-buttons">
+      <a href="https://arxiv.org/abs/2509.14159" class="pub-btn">Arxiv</a>
+      <a href="https://github.com/labicon/MIMIC-D" class="pub-btn">Code</a>
+      <a href="https://iconlab.negarmehr.com/MIMIC-D/" class="pub-btn">Website</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="pub-card">
+
+  <div class="pub-thumb-wrapper">
+    <img src="images/EquiContact.gif" alt="EquiContact Thumbnail" class="pub-thumb">
+    <div class="pub-badge">Preprint</div>
+  </div>
+
+  <div class="pub-content">
+    <a href="https://sites.google.com/berkeley.edu/equicontact" class="pub-title">
+      EquiContact: A Hierarchical SE(3) Vision-to-Force Equivariant Policy for Spatially Generalizable Contact-rich Tasks
+    </a>
+    <p>
+      J. Seo, A. Kruthiventy, S. Lee, M. Teng, X. Zhang, <strong>S. Choi</strong>, J. Choi, and R. Horowitz<br>
+      <em>Submitted to RA-L.</em>
+    </p>
+    <div class="pub-buttons">
+      <a href="https://arxiv.org/abs/2507.10961" class="pub-btn">Arxiv</a>
+      <a href="https://github.com/Joohwan-Seo/EquiContact-Simulation" class="pub-btn">Code</a>
+      <a href="https://sites.google.com/berkeley.edu/equicontact" class="pub-btn">Website</a>
+    </div>
+  </div>
+</div>

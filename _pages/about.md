@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a Ph.D. student in Mechanical Engineering at University of California, Berkeley. I work in the [ICON Lab](https://iconlab.negarmehr.com/) under Prof. [Negar Mehr](https://negarmehr.com/). My research focuses on robot learning, especially on developing autonomous robots that can work alongside humans and other robots.
+Hi! I am a Ph.D. student in Mechanical Engineering at the University of California, Berkeley. I work in the [ICON Lab](https://iconlab.negarmehr.com/) under Prof. [Negar Mehr](https://negarmehr.com/). My research focuses on robot learning, especially on developing autonomous robots that can work alongside humans and other robots.
 
 Prior to Berkeley, I earned my B.S. in Mechanical Engineering from Yonsei University. During my undergraduate studies, I worked as a research intern in [MLCS Lab](https://mlcs.yonsei.ac.kr/) under Prof. Jongeun Choi, where I worked on MPCs and RL for autonomous driving, as well as visuamotor policy learning for contact-rich manipulation.
 

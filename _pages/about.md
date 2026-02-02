@@ -93,7 +93,7 @@ Publications
     <p>
       <strong>S. Choi*</strong>, K. Ryu*, J. Ock, and N. Mehr  
       <em>(*Equal contribution)</em><br>
-      <em>Submitted to ICRA, 2026.</em>
+      <em>Priprint</em>
     </p>
     <div class="pub-buttons">
       <a href="https://arxiv.org/abs/2509.14380" class="pub-btn">Arxiv</a>
@@ -102,6 +102,28 @@ Publications
   </div>
 </div>
 
+<div class="pub-card">
+
+  <div class="pub-thumb-wrapper">
+    <img src="images/EquiContact.gif" alt="EquiContact Thumbnail" class="pub-thumb">
+    <div class="pub-badge">Preprint</div>
+  </div>
+
+  <div class="pub-content">
+    <a href="https://sites.google.com/berkeley.edu/equicontact" class="pub-title">
+      EquiContact: A Hierarchical SE(3) Vision-to-Force Equivariant Policy for Spatially Generalizable Contact-rich Tasks
+    </a>
+    <p>
+      J. Seo, A. Kruthiventy, S. Lee, M. Teng, X. Zhang, <strong>S. Choi</strong>, J. Choi, and R. Horowitz<br>
+      <em>Preprint</em>
+    </p>
+    <div class="pub-buttons">
+      <a href="https://arxiv.org/abs/2507.10961" class="pub-btn">Arxiv</a>
+      <a href="https://github.com/Joohwan-Seo/EquiContact-Simulation" class="pub-btn">Code</a>
+      <a href="https://sites.google.com/berkeley.edu/equicontact" class="pub-btn">Website</a>
+    </div>
+  </div>
+</div>
 
 <div class="pub-card">
 
@@ -117,36 +139,12 @@ Publications
     <p>
       D. Dong*, M. Bhatt*, <strong>S. Choi</strong>, and N. Mehr  
       <em>(*Equal contribution)</em><br>
-      <em>Submitted to ICRA, 2026.</em>
+      <em>ICRA 2026</em>
     </p>
     <div class="pub-buttons">
       <a href="https://arxiv.org/abs/2509.14159" class="pub-btn">Arxiv</a>
       <a href="https://github.com/labicon/MIMIC-D" class="pub-btn">Code</a>
       <a href="https://iconlab.negarmehr.com/MIMIC-D/" class="pub-btn">Website</a>
-    </div>
-  </div>
-</div>
-
-
-<div class="pub-card">
-
-  <div class="pub-thumb-wrapper">
-    <img src="images/EquiContact.gif" alt="EquiContact Thumbnail" class="pub-thumb">
-    <div class="pub-badge">Preprint</div>
-  </div>
-
-  <div class="pub-content">
-    <a href="https://sites.google.com/berkeley.edu/equicontact" class="pub-title">
-      EquiContact: A Hierarchical SE(3) Vision-to-Force Equivariant Policy for Spatially Generalizable Contact-rich Tasks
-    </a>
-    <p>
-      J. Seo, A. Kruthiventy, S. Lee, M. Teng, X. Zhang, <strong>S. Choi</strong>, J. Choi, and R. Horowitz<br>
-      <em>Submitted to RA-L.</em>
-    </p>
-    <div class="pub-buttons">
-      <a href="https://arxiv.org/abs/2507.10961" class="pub-btn">Arxiv</a>
-      <a href="https://github.com/Joohwan-Seo/EquiContact-Simulation" class="pub-btn">Code</a>
-      <a href="https://sites.google.com/berkeley.edu/equicontact" class="pub-btn">Website</a>
     </div>
   </div>
 </div>

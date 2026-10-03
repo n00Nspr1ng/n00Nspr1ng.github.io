@@ -19,13 +19,9 @@ Research
 
 <div style="margin-bottom: 20px;"></div>
 
-<!-- My research lies at the intersection of robot learning, control, and foundation models. I study how <span style="color:#003366; font-weight:600;">LLMs and VLMs can guide reinforcement learning</span> to acquire complex, coordinated robot behaviors. This includes building curriculum-driven frameworks such as CRAFT for multi-robot collaboration and extending them toward humanoid whole-body control and multi-humanoid interaction. 
+My research lies at the intersection of robot learning, control, and foundation models. I study how **LLMs can be integrated into robot learning** to acquire complex, coordinated robot behaviors. This includes CRAFT, where LLMs coach reinforcement learning through automatically generated curricula for multi-robot coordination, and HuGo, where LLMs directly write whole-body policy code for humanoid loco-manipulation.
 
-In parallel, I explore scalable <span style="color:#003366; font-weight:600;">imitation learning</span> methods that can transfer single-robot expertise to multi-robot settings, where data collection is especially challenging. Ultimately, I aim to develop autonomous systems that can learn efficiently, coordinate intelligently, and operate safely alongside humans and other robots. -->
-
-My research lies at the intersection of robot learning, control, and foundation models. I study how **LLMs and VLMs can guide reinforcement learning** to acquire complex, coordinated robot behaviors. This includes building curriculum-driven frameworks such as CRAFT for multi-robot collaboration and extending them toward humanoid whole-body control and multi-humanoid interaction. 
-
-In parallel, I explore scalable **imitation learning** methods that can transfer single-robot expertise to multi-robot settings, where data collection is especially challenging. Ultimately, I aim to develop autonomous systems that can learn efficiently, coordinate intelligently, and operate alongside humans and other robots.
+In parallel, I explore scalable **imitation learning** methods, such as diffusion policy and VLAs, that can transfer single-robot expertise to multi-robot settings, where data collection is especially challenging. Ultimately, I aim to develop autonomous systems that can learn efficiently, coordinate intelligently, and operate alongside humans and other robots.
 
 <!-- My most recent research direction is integrating foundation models such as LLMs and VLMs with reinforcement learning to learn intricate robot behaviors. I have written CRAFT to learn multi-robot collaboration, and I am extending this work to humanoids, starting from learning a single humanoid whole-body controller, and making up to learing multiple humanoid 
 (and with other robots) interactions. This will help in developing robots that can work alongside humans and other robots.
@@ -43,6 +39,33 @@ News
 <table style="width:100%; border-collapse:separate; border-spacing:0 6px;">
   <tr>
     <td class="news-date" style="width:130px; font-weight:bold; white-space:nowrap;">
+      Sep, 2026
+    </td>
+    <td>
+      <a href="https://meat124.github.io/CoHuB/">CoHuB</a>, a simulation benchmark for multi-humanoid collaboration, is now available on <a href="https://arxiv.org/abs/2609.34782">Arxiv</a>.
+    </td>
+  </tr>
+
+  <tr>
+    <td class="news-date" style="font-weight:bold; white-space:nowrap;">
+      Sep, 2026
+    </td>
+    <td>
+      My new first-authored paper <a href="https://iconlab.negarmehr.com/HuGo/">HuGo</a>, on using LLMs as whole-body policy code designers for humanoid loco-manipulation, is now available on <a href="https://arxiv.org/abs/2609.30594">Arxiv</a>.
+    </td>
+  </tr>
+
+  <tr>
+    <td class="news-date" style="font-weight:bold; white-space:nowrap;">
+      Jun, 2026
+    </td>
+    <td>
+      Happy to share that <a href="https://iconlab.negarmehr.com/CRAFT/">CRAFT</a> won the Outstanding Paper Award at the ICRA 2026 Workshop on Scaling Compositional Intelligence for Multi-Agent Robotic Systems. 🏆
+    </td>
+  </tr>
+
+  <tr>
+    <td class="news-date" style="font-weight:bold; white-space:nowrap;">
       Sep, 2025
     </td>
     <td>
@@ -82,6 +105,51 @@ Publications
 <div class="pub-card">
 
   <div class="pub-thumb-wrapper">
+    <video src="images/HuGo.mp4" class="pub-thumb" autoplay muted loop playsinline></video>
+    <div class="pub-badge">Preprint</div>
+  </div>
+
+  <div class="pub-content">
+    <a href="https://iconlab.negarmehr.com/HuGo/" class="pub-title">
+      HuGo: LLMs as Whole-Body Policy Code Designers for Humanoid Loco-Manipulation
+    </a>
+    <p>
+      <strong>S. Choi</strong>, S. Ye, N. Bui, A. Shrivastava, K. Ryu, D. Tirumala, M. Wulfmeier, and N. Mehr<br>
+      <em>Preprint</em>
+    </p>
+    <div class="pub-buttons">
+      <a href="https://arxiv.org/abs/2609.30594" class="pub-btn">Arxiv</a>
+      <a href="https://iconlab.negarmehr.com/HuGo/" class="pub-btn">Website</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+
+  <div class="pub-thumb-wrapper">
+    <video src="images/CoHuB.mp4" class="pub-thumb" autoplay muted loop playsinline></video>
+    <div class="pub-badge">Preprint</div>
+  </div>
+
+  <div class="pub-content">
+    <a href="https://meat124.github.io/CoHuB/" class="pub-title">
+      CoHuB: A Simulation Benchmark for Multi-Humanoid Collaboration
+    </a>
+    <p>
+      H. Park*, J. Chae*, M. Park*, S. Park, H. Yoo, <strong>S. Choi</strong>, S. Yoo, J. Seo, S. Idrees, J. Hyun, J. Lee, R. Horowitz, Y. Lee, and J. Choi  
+      <em>(*Equal contribution)</em><br>
+      <em>Preprint</em>
+    </p>
+    <div class="pub-buttons">
+      <a href="https://arxiv.org/abs/2609.34782" class="pub-btn">Arxiv</a>
+      <a href="https://meat124.github.io/CoHuB/" class="pub-btn">Website</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+
+  <div class="pub-thumb-wrapper">
     <img src="images/CRAFT.gif" alt="CRAFT Thumbnail" class="pub-thumb">
     <div class="pub-badge">Preprint</div>
   </div>
@@ -93,7 +161,7 @@ Publications
     <p>
       <strong>S. Choi*</strong>, K. Ryu*, J. Ock, and N. Mehr  
       <em>(*Equal contribution)</em><br>
-      <em>Priprint</em>
+      <em>Preprint</em>, <strong>Outstanding Paper Award in ICRA 2026 Workshop on Scaling Compositional Intelligence for Multi-Agent Robotic Systems</strong>
     </p>
     <div class="pub-buttons">
       <a href="https://arxiv.org/abs/2509.14380" class="pub-btn">Arxiv</a>
@@ -139,7 +207,7 @@ Publications
     <p>
       D. Dong*, M. Bhatt*, <strong>S. Choi</strong>, and N. Mehr  
       <em>(*Equal contribution)</em><br>
-      <em>ICRA 2026</em>
+      <em><strong>ICRA 2026</strong></em>
     </p>
     <div class="pub-buttons">
       <a href="https://arxiv.org/abs/2509.14159" class="pub-btn">Arxiv</a>
